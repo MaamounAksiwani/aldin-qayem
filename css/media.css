@@ -1,0 +1,171 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media (max-width:576px)
+{
+	.navbar-expand-lg .navbar-nav .nav-link{
+		color: #000;
+		background-color: #Fff;
+		text-align: right;
+		
+	}
+	
+	.navbar-expand-lg .navbar-nav .nav-link:hover{
+		color: #000;
+		
+	}
+	
+	
+	.navbar-light .navbar-toggler-icon{
+		font-size: 20px;
+	}
+	
+	
+	.section img{
+		display: none;
+	}
+	
+	
+	.section_two .left{
+		margin: 20px 0px;
+		
+	}
+	
+	
+	.section_two .right {
+		margin: 10px 0px;
+	}
+	
+	.section_three img{
+		
+		width: 100px;
+		height: 50px;
+	}
+	
+	.section_three .btn{
+		font-size: 15px;
+		left: 40%;
+	}
+	
+	.section_five {
+		height: 550px;
+	}
+	
+	.section_five .btn{
+		left: 38%;
+		font-size: 15px;
+	}
+	
+	.section_five  div .text-carousel button {
+		font-size: 15px;
+	}
+	
+	.section_five div .text-carousel h5{
+		font-size: 18px;
+	}
+	
+	.section_five div .text-carousel h6{
+		font-size: 15px;
+	}
+	
+	.nine {
+		text-align: center;
+		font-size: 15px;
+	}
+	
+}
+/*meduim screen*/
+@media(min-width:577px) and (max-width:991px)
+
+{
+	
+		.navbar-expand-lg .navbar-nav .nav-link{
+		color: #000;
+		background-color: #Fff;
+		text-align: right;
+		
+	}
+	
+	.navbar-expand-lg .navbar-nav .nav-link:hover{
+		color: #000;
+		
+	}
+	
+	
+	.navbar-light .navbar-toggler-icon{
+		font-size: 20px;
+	}
+	
+	.section img{
+		display:  none;
+	}
+	
+		.section_five {
+		height: 550px;
+	}
+	
+	.section_five .btn{
+		left: 43%;
+		font-size: 15px;
+	}
+	
+	.section_five  div .text-carousel button {
+		font-size: 15px;
+	}
+	
+	.section_five div .text-carousel h5{
+		font-size: 18px;
+	}
+	
+	.section_five div .text-carousel h6{
+		font-size: 15px;
+	}
+	
+	.section_three img{
+		
+		width: 125px;
+		height: 75px;
+	}
+	
+	.section_three .btn{
+		font-size: 15px;
+		left: 40%;
+	}
+	
+		
+	.section_two .left{
+		margin: 20px 0px;
+		
+	}
+	
+	.section_two .right {
+		margin: 10px 0px;
+	}
+	
+	
+}
+
+/*large screen*/
+@media(min-width:991px) and (max-width:1199px){
+	
+	.section_three img{
+		
+		width: 125px;
+		height: 90px;
+	}
+	
+	.section_three .btn{
+		font-size: 15px;
+		left: 44%;
+	}
+	
+	
+}
+
+
+/* xl screen */
+@media (min-width:1200px){
+	
+	
+	
+}
